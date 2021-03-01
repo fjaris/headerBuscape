@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /*background: linear-gradient(-25deg, #8600b3 50%, #cc33ff 50%);*/
+}
+
+#header {
+    width: 100%;
+    background-color: #EEB422;
+}
+
+#header .menu {
+    color: black;
+
+    height: 65px;
+    font-size: 1.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-right: 8rem;
+    
+}
+
+
+#header .menu .logo {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.menu .botaoMenu {
+    padding: 0.4rem 1rem 0 0;
+}
+
+.pesquisa input[type=text]{
+    font-size: 16px;
+    padding-left: 1.5rem;
+    height: 3rem;
+    width: 762px;
+    outline: none;
+    border-radius: 3rem;
+    
+}
+
+
+
+::-webkit-input-placeholder {
+    font-size: 1rem;
+}
+
+.pesquisa{
+    position: relative;
+}
+
+.pesquisa i {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    padding: 10px 8px;
+    color: #aaa
+}
+
+.pesquisa i:hover {
+    color:black
+}
+
+.botao {
+    border: solid 0.5px #00BFFF;
+    color: #836FFF;
+
+    display: flex;
+    width: 108px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 2.5rem;
+
+    border-radius: 0.5rem;
+
+    background: #fff;
+}
+
+.botao:hover {
+    background: dodgerblue;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
